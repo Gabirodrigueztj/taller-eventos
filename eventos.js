@@ -7,6 +7,7 @@ let botonSaludar = document.getElementById("botonSaludar");
     botonSaludar.addEventListener("click", function() 
     {
     mostrarAlerta();
+    botonSaludar.stopPropagation();
     });
 
 
